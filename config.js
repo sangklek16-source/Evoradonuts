@@ -2,9 +2,9 @@ window.APP_CONFIG = {
   APP_NAME: "DONAT BOSS",
   ENV: "production",
   API_BASE_URL: "",
-  SUPABASE_URL: "https://ganti-dengan-project-ref.supabase.co",
-  SUPABASE_ANON_KEY: "ganti-dengan-anon-key",
-  SUPABASE_ASSET_BUCKET: "ganti_dengan_nama_bucket_kamu",
+  SUPABASE_URL: "https://nariuxjcbqweveyybbnv.supabase.co",
+  SUPABASE_ANON_KEY: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5hcml1eGpjYnF3ZXZleXliYm52Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODMwNDEzNjYsImV4cCI6MjA5ODYxNzM2Nn0.Mo75imlE258r9D-PMdne__LgylWrbiba9W4x2_28hpU",
+  SUPABASE_ASSET_BUCKET: "donat-assets",
 };
 
 window.validateAppConfig = function validateAppConfig() {
