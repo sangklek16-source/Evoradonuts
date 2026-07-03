@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Evora</title>
+    <meta name="description" content="Evora - aplikasi operasional (React via CDN + Supabase Auth + RLS + Realtime)." />
+    <meta name="theme-color" content="#111111" />
+
+    <!-- PWA / ikon (PASTIKAN file logo.jpg ada di folder yang sama dengan index.html) -->
+    <link rel="icon" href="./logo-192.png" type="image/png" />
+    <link rel="apple-touch-icon" href="./logo-192.png" />
+    <link rel="manifest" href="./manifest.webmanifest" />
+
+    <link rel="stylesheet" href="./styles.css?v=1781146495" />
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <!-- React via CDN (tanpa npm / tanpa folder) -->
+    <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
+
+    <!-- Supabase JS (UMD) -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+    <!-- Konfigurasi (ISI sendiri) -->
+    <script src="./config.js?v=1781146495"></script>
+
+    <!-- Inisialisasi Supabase client -->
+    <script src="./supabaseClient.js?v=1781146495"></script>
+
+    <!-- App (hasil build, tanpa Babel) -->
+    <script src="./app.bundle.js?v=1781146495"></script>
+  </body>
+</html>
+

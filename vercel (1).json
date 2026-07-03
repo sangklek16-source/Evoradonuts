@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "routes": [
+    { "src": "/api/create-user", "dest": "/api/create-user.js" },
+    { "src": "/api/delete-user", "dest": "/api/delete-user.js" },
+    { "src": "/api/(.*)", "dest": "/api/$1.js" },
+    { "src": "^/[^.]*$", "dest": "/index.html" },
+    { "src": "/(.*\\.(js|css|html|json|jpg|png|svg|ico|webmanifest|woff|woff2|ttf))", "dest": "/$1" }
+  ]
+}
